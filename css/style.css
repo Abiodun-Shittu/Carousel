@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	width: 80%;
+	height: 600px;
+	position: relative;
+	margin: 0 auto;
+	/* padding: 0; */
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.slide-container {
+	background: green;
+	/* padding: 10px; */
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.slides {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+	height: 100%;
+	transition: transform 250ms ease-in;
+}
+
+
+.slide {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.btn {
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+	padding: 20px;
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 20px;
+	/* transition: 0.6s ease; */
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.prev {
+	left: -40px;
+}
+.next {
+	right:-40px;
+}
+
+.text {
+	color: blue;
+	font-size: 16px;
+	font-weight: bolder;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.dots {
+	padding: 10px 0;
+	text-align: center;
+}
+
+
+.dot {
+	margin: 0 10px;
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+	border: 0;
+	border-radius: 50%;
+	background-color: #bbb;
+}
+
+.dot:hover {
+	background-color: #545252;
+}
+
+.current-slide {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+/*
+.slide {
+	position: absolute;
+	inset: 0;
+	opacity: 0;
+}
+
+.slide > img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+	object-position: center;
+}
+
+.slide[data-active] {
+	opacity: 1;
+}
+
+
+.next {
+	right: 0;
+}
+
+.prev:hover,
+.next:hover,
+.prev:focus,
+.next:focus {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.prev:focus,
+.next:focus {
+	outline: 1px solid black;
+}
+
+.text {
+	color: blue;
+	font-size: 16px;
+	font-weight: bolder;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+.dots {
+	text-align: center;
+}
+
+.dot {
+	cursor: pointer;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #bbb;
+	transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+	background-color: #717171;
+} */
