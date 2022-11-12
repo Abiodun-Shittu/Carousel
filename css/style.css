@@ -18,13 +18,13 @@ h1 {
 	color: wheat;
 	margin-top: 30px;
 	font-size: 3em;
-    font-weight: bolder;
+	font-weight: bolder;
 	margin-bottom: 30px;
 }
 
 .container {
 	width: 80%;
-	height: 750px;
+	height: 700px;
 	position: relative;
 	margin: 0 auto;
 }
@@ -50,7 +50,6 @@ img {
 	transition: transform 250ms ease-in;
 }
 
-
 .slide {
 	position: absolute;
 	top: 0;
@@ -58,10 +57,19 @@ img {
 	width: 100%;
 }
 
+/* .icons {
+	display: none;
+}
+
+.slide-container:hover + .icons {
+	background-color: rgba(0, 0, 0, 0.7);
+	display: block;
+} */
+
 .btn {
 	position: absolute;
 	top: 50%;
-    transform: translateY(-50%);
+	transform: translateY(-50%);
 	padding: 20px;
 	background: transparent;
 	border: 0;
@@ -80,7 +88,7 @@ img {
 	left: 20px;
 }
 .next {
-	right:20px;
+	right: 20px;
 }
 
 .text {
@@ -94,12 +102,10 @@ img {
 	text-align: center;
 }
 
-
 .dots {
 	padding: 20px 0;
 	text-align: center;
 }
-
 
 .dot {
 	margin: 0 10px;
@@ -108,13 +114,13 @@ img {
 	height: 15px;
 	border: 0;
 	border-radius: 50%;
-	background-color: #bbb;
+	background-color: wheat;
 }
 
 .dot:hover {
-	background-color: #545252;
+	background-color: rgb(183, 143, 71);
 }
 
 .current-slide {
-	background: rgba(0, 0, 0, 0.8);
+	background: rgb(74, 52, 9);
 }
